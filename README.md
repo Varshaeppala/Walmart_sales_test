@@ -49,7 +49,7 @@ Verification: Run initial SQL queries to confirm that the data has been loaded a
 Business Problem-Solving: Write and execute complex SQL queries to answer critical business questions, such as:
 Revenue trends across branches and categories.
 
-'''sql
+```sql
 SELECT 
   city,
   category,
@@ -58,7 +58,7 @@ SELECT
   avg(rating) as avg_rating
 FROM walmart
 GROUP BY 1,2
-'''
+```
 
  - Identifying best-selling product categories.
  - Sales performance by time, city, and payment method.
